@@ -8,7 +8,7 @@ initial_size = 50
 size_increase = 20
 num_turns = 50
 
-for size in range(initial_size, initial_size + size_increase*num_turns, size_increase):
+for size in range(initial_size, initial_size + size_increase*(num_turns+1), size_increase):
 
     construtor.forward(size)
     construtor.right(90)
