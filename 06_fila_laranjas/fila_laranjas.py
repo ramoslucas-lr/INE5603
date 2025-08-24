@@ -6,7 +6,7 @@ t.color("orange")
 
 raio_inicial = 50
 num_laranjas = 6
-aumento_raio = 10
+aumento_raio = 100
 
 for raio in range(raio_inicial, aumento_raio*num_laranjas+raio_inicial, aumento_raio):
     t.begin_fill()
