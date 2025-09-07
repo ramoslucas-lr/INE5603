@@ -1,7 +1,5 @@
 salario = float(input())
 
-perc = 0
-
 if salario <= 720:
     inss = 0.0765*salario
 elif salario <= 1200:
